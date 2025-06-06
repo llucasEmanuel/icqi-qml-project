@@ -10,6 +10,8 @@
 
  O projeto se estrutura em duas arquiteturas principais:
 
+<img src="docs/Diagrama.png" alt="Diagrama do projeto" width="1000"/>
+
 ### 📘 **Modelo V1** – Utiliza da *Principal Component Analysis* (PCA) e *Circuito Quântico variacional*
 
 &emsp; Nesta abordagem, as imagens são pré-processadas e reduzidas em dimensão com o algoritmo **PCA (Principal Component Analysis)**, gerando vetores com um número menor de características representativas. Esses vetores são, então, utilizados como entrada em um circuito quântico variacional. O foco está na aplicação de embeddings angulares para a codificação dos dados em qubits, utilizando templates de entrelaçamento disponíveis no PennyLane. O objetivo é testar o potencial da computação quântica em um modelo focado em performace para tarefas de classificação binária.
